@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/register.css" />
+  </head>
+
+  <body>
+    <header>
+      <input type="submit" value="Log In" id="logIn" class="logIn" />
+      <div id="div1" class="div1">
+        <label for="password">Password</label><br />
+        <input type="password" id="password" />
+      </div>
+      <div id="div2" class="div2">
+        <label for="mail"> Email or Phone</label><br />
+        <input type="mail" id="mail" />
+      </div>
+      <p id="para" class="para">facebook</p>
+    </header>
+    <form action="./index.html">
+      <div id="MainDiv" class="MainDiv">
+        <p id="para1" class="para1">Create an Account</p>
+        <div>
+          <input
+            type="text"
+            id="first"
+            class="first"
+            placeholder="First Name"
+          />
+          <span id="spanFname"></span>
+          <input type="text " id="last" class="last" placeholder="Last Name" />
+          <span id="spanLname"></span><br /><br />
+        </div>
+        <div>
+          <input
+            type="email"
+            id="email"
+            class="email"
+            placeholder="  Your Email Address"
+          />
+          <span id="spanEmail"></span>
+          <br /><br />
+        </div>
+        <div>
+          <input
+            type="email"
+            id="re-enter"
+            class="re-enter"
+            placeholder="Re-Enter email address"
+          />
+          <span id="spanRe-Email"></span>
+          <br /><br />
+        </div>
+        <div>
+          <input
+            type="password"
+            id="newpass"
+            class="newpass"
+            placeholder="New Password"
+          />
+          <span id="spanPassword"></span>
+
+          <br /><br />
+        </div>
+
+        <div id="Birth" class="Birth">
+          <label for="date">BirthDay</label><br /><br />
+          <input type="date" id="date" class="date" /><br /><br />
+          <div class="div-mail">
+            <label for="male">Male</label>
+            <input type="radio" id="male" class="male" name="gender" />
+          </div>
+          <div class="div-female">
+            <label for="female"> Female</label>
+            <input type="radio" id="female" class="female" name="gender" />
+          </div>
+          <p class="terms">
+            By clicking sign up you agree to our <span> Terms </span> and that
+            you have read our <span> Data Use Policy </span>, including our
+            <span> Cookie Use </span>
+          </p>
+          <br /><br />
+          <input type="submit" value="Sign Up" id="Sign" class="Sign" /><br />
+          <hr />
+          <p class="create-page">
+            <span>Create a Page </span> for a celebrity, band or business.
+          </p>
+        </div>
+      </div>
+    </form>
+    <script src="./js/register.js"></script>
+  </body>
+</html>
